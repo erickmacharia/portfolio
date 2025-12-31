@@ -87,7 +87,7 @@ const Hero = () => {
           <div className="image-wrapper">
             <div className="image-container">
               <div className="profile-image">
-                <img src="/passport.png" alt="Erick" />
+               <img src="./passport.png" alt="Erick" />
               </div>
               
               {/* Floating Elements */}
