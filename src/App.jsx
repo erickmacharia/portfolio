@@ -11,11 +11,15 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Hero/>
+    <div className="App">   
+      <Header />  
+      
       {/* Main content with sections matching your links */}
-      <main>
+      <main>        
+        <section >
+          <Hero />
+        </section>
+
         <section id="about">
           <About />
         </section>

@@ -222,16 +222,19 @@ body {
 
 /* ===== MAIN CONTENT ===== */
 .App {
-  padding-top: 100px;
+  padding-top: 85px;
+  
 }
-
+/* the main section was giving me alot headach
 main {
-  max-width: 1200px;
+ width:auto;
   margin: 0 auto;
- /* padding: 10px; */ 
-}
+  padding:0;
+ 
+} */
 
 section {
+  width:100%;
   min-height: 100vh;
   /*padding: 80px 20px; */
   padding-top: 15px;
@@ -370,7 +373,6 @@ section p {
     font-size: 1.1rem;
   }
 }
-
 
 /* ===== HERO SECTION ===== */
 /* ===== HERO SECTION ===== */
