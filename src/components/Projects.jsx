@@ -136,7 +136,7 @@ function Projects() {
         "✓ Logo Design & Brand Identity", 
         "✓ Marketing Materials",
         "✓ Digital Assets" ],
-      link: "https://www.facebook.com/share/1G6suiA9Lu/",
+      link: "https://erickmacharia.github.io/graphic-portfolio/",
       featured: true
     },
     {
@@ -152,7 +152,7 @@ function Projects() {
         "✓ Business Signage",
         "✓ Digital Art Products"
       ],
-      link: "https://www.facebook.com/share/1G6suiA9Lu/",
+      link: "https://erickmacharia.github.io/graphic-portfolio/",
       featured: true
     },
     {

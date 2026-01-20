@@ -152,10 +152,10 @@ function Footer() {
                 </a>
               ))}
             </div>
-            <div className="current-year-display">
-              <span className="year-icon">📅</span>
+            {/*  <div className="current-year-display">
+              <span className="year-icon">🌏</span>
               <span className="year-text">Get Ready For Your Project Year: {currentYear}</span>
-            </div>
+            </div> */}
           </div>
 
           {/* Column 3: Connect */}
