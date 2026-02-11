@@ -33,12 +33,47 @@ function Testimonials() {
     };
   }, []);
 
- const testimonials = [
+const testimonials = [
+  // 🌍 INTERNATIONAL CLIENTS (continued IDs)
+  {
+    id: 11,
+    name: "David Chen",
+    role: "Product Manager",
+    company: "ShopFlow Inc. (USA)",
+    image: "🌎",
+    rating: 5,
+    text: "Erick developed our e-commerce platform remotely. His communication was clear despite the time difference, and he delivered ahead of schedule. The M-Pesa integration he suggested was a game-changer for our African expansion.",
+    project: "E-Commerce Platform",
+    matchesProjectId: 2
+  },
+  {
+    id: 12,
+    name: "Sarah Williams",
+    role: "Tech Lead",
+    company: "FinTech Solutions UK",
+    image: "🇬🇧",
+    rating: 5,
+    text: "Hired Erick for UI/UX consultation on our banking app. His insights on user behavior and clean design were exceptional. We're now working with him on our next project.",
+    project: "Banking System UI",
+    matchesProjectId: 8
+  },
+  {
+    id: 13,
+    name: "Michael Okafor",
+    role: "CTO",
+    company: "PayStack (Nigeria)",
+    image: "🇳🇬",
+    rating: 5,
+    text: "Erick's network security expertise is world-class. He helped us implement robust firewall policies across our infrastructure. One of the best remote engineers we've worked with.",
+    project: "Network Security Dashboard",
+    matchesProjectId: 5
+  },
+  // 🇰🇪 LOCAL CLIENTS
   {
     id: 1,
     name: "Alex Mwangi",
     role: "Operations Manager",
-    company: "City Shuttle Sacco",
+    company: "Super Metro Sacco",
     image: "🚌",
     rating: 5,
     text: "Erick's matatu branding transformed our fleet. The designs are eye-catching and professional. Our daily revenue increased significantly!",
@@ -65,11 +100,11 @@ function Testimonials() {
     rating: 5,
     text: "Erick's network security implementation is top-notch. His CCNA/CCNP knowledge saved us from potential security breaches.",
     project: "Network Security Dashboard",
-    matchesProjectId: 2
+    matchesProjectId: 5
   },
   {
     id: 4,
-    name: "Marthar Achieng",
+    name: "Martha Achieng",
     role: "Marketing Manager",
     company: "Conference Organizers",
     image: "📢",
@@ -100,66 +135,52 @@ function Testimonials() {
     project: "Banking System UI",
     matchesProjectId: 8
   },
-  {  // ← ADDED THIS OPENING BRACE
+  {
     id: 7,
-    name: "Sarah Johnson",
-    role: "CTO at TechCorp",
-    company: "Microsoft",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+    name: "Brian Kipchumba",
+    role: "Fleet Manager",
+    company: "City Hoppa",
+    image: "🚌",
     rating: 5,
-    text: "Working with this developer was an absolute pleasure. Their attention to detail and problem-solving skills are exceptional. They delivered our project ahead of schedule with zero bugs.",
-    project: "Enterprise CRM System"
+    text: "Erick redesigned our entire matatu fleet interior and exterior. Passengers love the fresh look and our brand visibility has never been better.",
+    project: "Full Fleet Rebranding",
+    matchesProjectId: 9
   },
   {
     id: 8,
-    name: "Michael Chen",
-    role: "Lead Developer",
-    company: "Google",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+    name: "Lucy Wanjiku",
+    role: "Shop Owner",
+    company: "Downtown Boutique",
+    image: "👗",
     rating: 5,
-    text: "One of the most skilled developers I've worked with. The network security solution they implemented reduced our vulnerabilities by 95%. Highly recommended!",
-    project: "Network Security Platform"
+    text: "Needed 3D signage for my shop urgently. Erick delivered within 3 days and installation was seamless. Customers find my shop easily now.",
+    project: "3D Shop Signage",
+    matchesProjectId: 10
   },
   {
     id: 9,
-    name: "Emily Rodriguez",
-    role: "Product Manager",
-    company: "Apple",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
-    rating: 4,
-    text: "The UI/UX designs were stunning and highly intuitive. User engagement increased by 40% after implementing their design recommendations.",
-    project: "Mobile Banking App"
+    name: "Peter Mbugua",
+    role: "Systems Administrator",
+    company: "Nairobi Hospital",
+    image: "🏥",
+    rating: 5,
+    text: "Erick helped us secure our hospital network infrastructure. His CCNA expertise identified vulnerabilities we didn't know existed. Zero incidents since implementation.",
+    project: "Network Security Audit",
+    matchesProjectId: 5
   },
   {
     id: 10,
-    name: "David Wilson",
-    role: "Founder & CEO",
-    company: "StartupXYZ",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
-    rating: 5,
-    text: "Their full-stack expertise helped us build our MVP in record time. The code quality is excellent and the architecture is scalable.",
-    project: "E-commerce Platform"
-  },
-  {
-    id: 11,
-    name: "Lisa Thompson",
-    role: "Senior Director",
-    company: "Amazon",
-    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
-    rating: 5,
-    text: "Outstanding work on our cloud migration project. They handled complex AWS infrastructure with ease and provided thorough documentation.",
-    project: "Cloud Migration"
-  },
-  {
-    id: 12,
-    name: "Robert Garcia",
-    role: "Engineering Manager",
-    company: "Netflix",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+    name: "Hassan Ali",
+    role: "Small Business Owner",
+    company: "Fresh Mart",
+    image: "🛒",
     rating: 4,
-    text: "The API gateway they built handles millions of requests daily with 99.99% uptime. Their microservices architecture is impressive.",
-    project: "API Gateway System"
-  }
+    text: "Started with a simple logo, now Erick handles all my marketing materials - banners, posters, social media graphics. Affordable and quality work.",
+    project: "Brand Identity Package",
+    matchesProjectId: 10
+  },
+  
+  
 ];
 
   const renderStars = (rating) => {

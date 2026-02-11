@@ -83,7 +83,7 @@ function About() {
               
               <div className="description-text">
                 <p>
-                  Hello! I'm <span className="highlight">Erick</span>, a creative professional with expertise in 
+                  Hello! I'm <span className="highlight">Erick Ngutu</span>, a creative professional with expertise in 
                   <span className="highlight"> graphic design, web development</span> and 
                   <span className="highlight"> network administration</span>. 
                   With over 5 years of experience, I bridge the gap between beautiful design 

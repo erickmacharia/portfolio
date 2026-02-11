@@ -51,7 +51,7 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h3 className="greeting">Hello, I'm</h3>
-            <h1 className="name">Erick</h1>
+            <h1 className="name">Erick Ngutu</h1>
             
             {/* Fixed Role Section - Two Lines with Typing */}
             <div className="role-container">
@@ -87,7 +87,7 @@ const Hero = () => {
           <div className="image-wrapper">
             <div className="image-container">
               <div className="profile-image">
-               <img src="./passport.png" alt="Erick" />
+               <img src="./passport1.jpg" alt="Erick" />
               </div>
               
               {/* Floating Elements */}
