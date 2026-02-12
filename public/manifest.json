@@ -1,7 +1,6 @@
 {
-  "short_name": " Erick Ngutu React App",
-  "name": "Erick Ngutu's Portfolio",
-  "github_url": "https://github.com/erickngutu/portfolio",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
